@@ -3,7 +3,7 @@ try {
     const gitPullOrClone = require('git-pull-or-clone')
 
     if (process.cwd() == "/root/DiscordBotMaker/GithubRepo's/GlattModded"){
-        gitPullOrClone('https://github.com/lolteam4u/GlattModded.git', "../GlattModded", (err) => {
+        gitPullOrClone('https://github.com/lolteam4u/GlattModded', "../GlattModded", (err) => {
             if (err) throw err
             console.log('SUCCESS!')
 			console.log('Loaded Bot!')
