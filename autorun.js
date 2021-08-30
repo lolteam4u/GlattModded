@@ -17,7 +17,7 @@ try {
                 }
                 if(getter){
                     console.log("data",data);
-                    return;
+                    
                 }
                 console.log("data",data);
             });
