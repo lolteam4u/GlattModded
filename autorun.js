@@ -16,10 +16,10 @@ try {
                     return;
                 }
                 if(getter){
-                    console.log("data",data);
+                    
                     
                 }
-                console.log("data",data);
+                
             });
         } catch (error) {
             console.log("Error: bot.js not found")
