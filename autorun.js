@@ -6,6 +6,7 @@ try {
         gitPullOrClone('https://github.com/lolteam4u/GlattModded', "../GlattModded", (err) => {
             if (err) throw err
             console.log('SUCCESS!')
+			console.log('Loaded Bot!')
         })
 
         try {
