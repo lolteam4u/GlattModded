@@ -6,7 +6,6 @@ try {
         gitPullOrClone('https://github.com/lolteam4u/GlattModded', "../GlattModded", (err) => {
             if (err) throw err
             console.log('SUCCESS!')
-			console.log('Loaded Bot!')
         })
 
         try {
@@ -21,7 +20,6 @@ try {
                     return;
                 }
                 console.log("data",data);
-				console.log('Loaded Bot!')
             });
         } catch (error) {
             console.log("Error: bot.js not found")
