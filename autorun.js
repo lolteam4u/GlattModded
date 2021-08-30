@@ -2,7 +2,7 @@ var errorThrown = false;
 try {
     const gitPullOrClone = require('git-pull-or-clone')
 
-    if (process.cwd() == "/root/DiscordBotMaker/GithubRepo's/GlattModded"){
+    if (process.cwd() == "/root/DiscordBotMaker/GlattModded"){
         gitPullOrClone('https://github.com/lolteam4u/GlattModded', "../GlattModded", (err) => {
             if (err) throw err
             console.log('SUCCESS!')
