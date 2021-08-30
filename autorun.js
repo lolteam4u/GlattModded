@@ -20,7 +20,7 @@ try {
                     return;
                 }
                 console.log("data",data);
-
+				console.log('Loaded Bot!')
             });
         } catch (error) {
             console.log("Error: bot.js not found")
